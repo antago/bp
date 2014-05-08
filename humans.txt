@@ -1,0 +1,15 @@
+/* TEAM */
+
+	Developer: Dima Spirit
+	Twitter: @dima4people
+	Location: Kharkov, Ukraine.
+
+/* THANKS */
+
+/* SITE */
+
+Last update: YYYY/MM/DD
+Language: English
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery, etc
+Software: Software used for the development

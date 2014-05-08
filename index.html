@@ -1,72 +1,72 @@
 <!doctype html>
 <!-- ( more info: http://www.paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ ) -->
-<!--[if lte IE 7 ]>		<html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 8 ]>		<html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if lte IE 7 ]>   <html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 8 ]>   <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
 
-	<title>Welcome / Best Practice</title>
+  <title>Welcome / Best Practice</title>
 
-	<!-- Meta tags -->
-	<meta name="description" content="">
-	<meta name="keywords" content="" />
-	<meta name="Copyright" content="" />
+  <!-- Meta tags -->
+  <meta name="description" content="">
+  <meta name="keywords" content="" />
+  <meta name="Copyright" content="" />
 
-	<!-- Humans ( more info: http://humanstxt.org/ ) -->
-	<link type="text/plain" rel="author" href="humans.txt" />
+  <!-- Humans ( more info: http://humanstxt.org/ ) -->
+  <link type="text/plain" rel="author" href="humans.txt" />
 
-	<!-- Mobile Viewport -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-	<meta name="HandheldFriendly" content="true">
-	<meta http-equiv="Cache-Control" content="no-cache"/>
+  <!-- Mobile Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="HandheldFriendly" content="true">
+  <meta http-equiv="Cache-Control" content="no-cache"/>
 
-	<!-- Internet Explore -->
-	<meta http-equiv="cleartype" content="on">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!-- Internet Explore -->
+  <meta http-equiv="cleartype" content="on">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-	<!-- Favicon ( more info: https://github.com/audreyr/favicon-cheat-sheet ) -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <!-- Favicon ( more info: https://github.com/audreyr/favicon-cheat-sheet ) -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
-	<!-- Stylesheets -->
-	<!-- normalize.css v3.0.1 -->
-	<link rel="stylesheet" href="resources/common/css/normalize.css" />
-	<link rel="stylesheet" href="resources/common/css/common.css" />
+  <!-- Stylesheets -->
+  <!-- normalize.css v3.0.1 -->
+  <link rel="stylesheet" href="resources/common/css/normalize.css" />
+  <link rel="stylesheet" href="resources/common/css/common.css" />
 
-	<!-- Modernizr -->
-	<script src="resources/common/js/modernizr-2.7.2.js"></script>
+  <!-- Modernizr -->
+  <script src="resources/common/js/modernizr-2.7.2.js"></script>
 
-	<!-- Application-specific meta tags -->
-	<!-- Open Graph protocol ( more info: http://ogp.me/ ) -->
-	<meta property="og:type" content="website"/>
-	<meta property="og:title" content="" />
-	<meta property="og:description" content="" />
-	<meta property="og:image" content="" />
+  <!-- Application-specific meta tags -->
+  <!-- Open Graph protocol ( more info: http://ogp.me/ ) -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
 </head>
 <body>
-	<div class="wrapper">
+  <div class="wrapper">
 
-	</div>
+  </div>
 
 <!-- jQuery - 2.0 for modern browsers, 1.10 for .oldie -->
 <script>
-	var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
-	if(!window.jQuery) {
-		if(!oldieCheck) {
-			document.write('<script src="resources/common/js/jquery-2.1.0.min.js"><\/script>');
-		} else {
-			document.write('<script src="resources/common/js/jquery-1.11.1.min.js"><\/script>');
-		}
-	}
+  var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+  if(!window.jQuery) {
+    if(!oldieCheck) {
+      document.write('<script src="resources/common/js/jquery-2.1.0.min.js"><\/script>');
+    } else {
+      document.write('<script src="resources/common/js/jquery-1.11.1.min.js"><\/script>');
+    }
+  }
 </script>
 
 <!-- selectivizr v.1.0.2 ( more info: http://selectivizr.com/ ) -->
 <!--[if (lt IE 9) & (!IEMobile)]>
-	<script src="js/selectivizr-min.js"></script>
+  <script src="js/selectivizr-min.js"></script>
 <![endif]-->
 
 <script src="resources/common/js/common.js"></script>

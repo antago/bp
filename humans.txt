@@ -8,8 +8,8 @@
 
 /* SITE */
 
-Last update: YYYY/MM/DD
-Language: English
-Standards: HTML5, CSS3
-Components: Modernizr, jQuery, etc
-Software: Software used for the development
+	Last update: YYYY/MM/DD
+	Language: English
+	Standards: HTML5, CSS3
+	Components: Modernizr, jQuery, etc
+	Software: Software used for the development

@@ -1,12 +1,13 @@
-/* TEAM */
+# humanstxt.org/
+# TEAM
 
   Developer: Dima Spirit
   Twitter: @dima4people
   Location: Kharkov, Ukraine.
 
-/* THANKS */
+# THANKS
 
-/* SITE */
+# SITE
 
   Last update: YYYY/MM/DD
   Language: English

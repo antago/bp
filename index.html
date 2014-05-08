@@ -37,8 +37,8 @@
   <link rel="stylesheet" href="resources/common/css/normalize.css" />
   <link rel="stylesheet" href="resources/common/css/common.css" />
 
-  <!-- Modernizr -->
-  <script src="resources/common/js/modernizr-2.7.2.js"></script>
+  <!-- Modernizr v2.7.2-->
+  <script src="resources/common/js/libs/modernizr-2.7.2.js"></script>
 
   <!-- Application-specific meta tags -->
   <!-- Open Graph protocol ( more info: http://ogp.me/ ) -->
@@ -57,16 +57,16 @@
   var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
   if(!window.jQuery) {
     if(!oldieCheck) {
-      document.write('<script src="resources/common/js/jquery-2.1.0.min.js"><\/script>');
+      document.write('<script src="resources/common/js/libs/jquery-2.1.0.min.js"><\/script>');
     } else {
-      document.write('<script src="resources/common/js/jquery-1.11.1.min.js"><\/script>');
+      document.write('<script src="resources/common/js/libs/jquery-1.11.1.min.js"><\/script>');
     }
   }
 </script>
 
 <!-- selectivizr v.1.0.2 ( more info: http://selectivizr.com/ ) -->
 <!--[if (lt IE 9) & (!IEMobile)]>
-  <script src="js/selectivizr-min.js"></script>
+  <script src="resources/common/js/libs/selectivizr-min.js"></script>
 <![endif]-->
 
 <script src="resources/common/js/common.js"></script>

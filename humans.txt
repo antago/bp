@@ -6,6 +6,9 @@
   Location: Kharkov, Ukraine.
 
 # THANKS
+  Designer, writer: Chris Coyier
+  Site: http://css-tricks.com/
+  Twitter: @chriscoyier
 
 # SITE
 

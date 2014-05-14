@@ -1,5 +1,5 @@
 #BP Frond-End
-  Best Practices project is a set of commonly agreed rules and techniques for front-end work;
+  Best Practices project is a set of commonly agreed rules and techniques for front-end work.
   It's a good starting point for modern web.
   Easy to customize — remove whatever you don't need, keep what you do.
 
@@ -26,7 +26,7 @@ It contains:
   - Modern
 
 ##Browser & Device Support
-  IE8 and IE-specific classes for IE7.
+  IE8+ and IE-specific classes for IE7.
 
 ##Attribution
   Many thanks to Paul Irish(@paul_irish), Chris Coyier(@chriscoyier).

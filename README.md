@@ -5,7 +5,7 @@
 
 It contains:
 - index.html;
-  - IE-specific classes for simple CSS-targeting - [more info](http://www.paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/);
+  - IE-specific classes for simple CSS-targeting. [More info](http://www.paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/);
   - Main meta tags and meta tags for [Open Graph protocol](http://ogp.me/) (uses Facebook);
 
 - Favicon: standart (16x16) + apple-touch-icon (x3). [More info](https://github.com/audreyr/favicon-cheat-sheet);
